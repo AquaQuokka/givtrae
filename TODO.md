@@ -1,0 +1,4 @@
+- Add click CLI so that users can choose how their tree lists things
+- Add more config options
+- Add a config file that users can use
+- Streamline the way it works (broad)
