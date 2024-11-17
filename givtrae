@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+# -*- mode: python ; coding: utf-8 -*-
+
+from mkgtree.mkgtree import main
+
+if __name__ == '__main__':
+    main()

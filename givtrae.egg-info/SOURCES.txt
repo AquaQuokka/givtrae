@@ -1,0 +1,10 @@
+pyproject.toml
+setup.py
+givtrae.egg-info/PKG-INFO
+givtrae.egg-info/SOURCES.txt
+givtrae.egg-info/dependency_links.txt
+givtrae.egg-info/entry_points.txt
+givtrae.egg-info/top_level.txt
+mkgtree/__init__.py
+mkgtree/__main__.py
+mkgtree/mkgtree.py

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: givtrae
+Version: 0.1.2
+Summary: A simple tool for quickly generating a file tree in the selected directory.
+Home-page: https://github.com/AquaQuokka/givtrae
+Author: AquaQuokka
+License: BSD-3-Clause
