@@ -2,7 +2,7 @@
 # -*- mode: python ; coding: utf-8 -*-
 import os
 
-__version__ = "0.1.2"
+__version__ = "0.1.3"
 
 def __tree__(root, max_depth=None, exclude=None, indent='', legacy: bool=False):
     if legacy == True:
