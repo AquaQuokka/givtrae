@@ -2,11 +2,10 @@
 # -*- mode: python ; coding: utf-8 -*-
 
 import re
-#from setuptools import setup, find_packages
-from setuptools import *
+from setuptools import setup, find_packages
 
-#with open("idx.rst", "r", encoding="utf-8") as f:
-    #long_description = f.read()
+with open("README.md", "r", encoding="utf-8") as f:
+    long_description = f.read()
 
 version = re.search(
     '^__version__\s*=\s*"(.*)"',
@@ -22,7 +21,8 @@ setup(
     },
     version=version,
     description='A simple tool for quickly generating a file tree in the selected directory.',
-    long_description="",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     url="https://github.com/AquaQuokka/givtrae",
     author="AquaQuokka",
     license='BSD-3-Clause',
